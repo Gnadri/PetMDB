@@ -1,0 +1,5 @@
+{
+  "name": "PetMDB",
+  "description": "An IMDB clone for pets featuring famous internet pets and viral pet videos.",
+  "requestFramePermissions": []
+}
