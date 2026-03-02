@@ -27,6 +27,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center gap-4">
             <Link to="/" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
             <Link to="/top-rated" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Top Rated</Link>
+            <Link to="/top-pets" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Top Pets</Link>
             <Link to="/signin" className="bg-yellow-500 text-zinc-900 hover:bg-yellow-400 px-4 py-2 rounded-md text-sm font-bold transition-colors">Sign In</Link>
           </div>
         </div>

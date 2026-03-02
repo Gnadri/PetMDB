@@ -81,7 +81,7 @@ export default function Home() {
         <section>
           <div className="flex items-center justify-between mb-8">
             <h2 className="text-2xl md:text-3xl font-bold border-l-4 border-yellow-500 pl-4">Top Rated Pets</h2>
-            <Link to="/top-rated" className="flex items-center text-yellow-500 hover:text-yellow-400 font-semibold transition-colors">
+            <Link to="/top-pets" className="flex items-center text-yellow-500 hover:text-yellow-400 font-semibold transition-colors">
               View All <ChevronRight className="w-5 h-5 ml-1" />
             </Link>
           </div>

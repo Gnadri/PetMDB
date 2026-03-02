@@ -11,6 +11,11 @@ import PetProfile from './pages/PetProfile';
 import VideoPage from './pages/VideoPage';
 import SignIn from './pages/SignIn';
 import TopRated from './pages/TopRated';
+import TopPets from './pages/TopPets';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfService from './pages/TermsOfService';
 
 export default function App() {
   return (
@@ -24,6 +29,11 @@ export default function App() {
             <Route path="/video/:id" element={<VideoPage />} />
             <Route path="/signin" element={<SignIn />} />
             <Route path="/top-rated" element={<TopRated />} />
+            <Route path="/top-pets" element={<TopPets />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-of-service" element={<TermsOfService />} />
           </Routes>
         </main>
         <Footer />
